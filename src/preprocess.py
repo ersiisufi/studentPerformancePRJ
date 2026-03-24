@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 def load_data():
-    df = pd.read_csv('/Users/admin/Desktop/student performance/data/Students_perf')
+    df = pd.read_csv('/Users/admin/Documents/ML projects/student performance/data/Students_perf')
     return df
 
 def preprocess(df):
